@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 //teste de git em andamento 
+//outro teste
 int registro()
 {
 		printf("Você escolheu o registro de nomes\n\n");
