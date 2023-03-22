@@ -6,7 +6,7 @@ const mensagem = document.getElementById('mensagem');
 form.addEventListener('submit', function(event) {
   event.preventDefault();
 
-  if (campoB.value > campoA.value) {
+  if (Number(campoB.value) > Number(campoA.value)) {
     mensagem.innerHTML = 'Formulário válido!';
     mensagem.style.color = 'green';
   } else {
