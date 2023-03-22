@@ -1,0 +1,33 @@
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+form {
+	display: inline-block;
+	text-align: left;
+}
+
+label, input, button {
+	display: block;
+	margin: 10px;
+}
+
+button {
+	margin-top: 20px;
+}
+
+.mensagem-sucesso {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.mensagem-erro {
+	background-color: #f44336;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+}
