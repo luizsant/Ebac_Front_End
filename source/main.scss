@@ -1,12 +1,50 @@
+@use 'variaveis';
+@use 'produtos';
+@use 'responsive';
 @use 'reset';
 
-$botao: button;
-$corBotao: green;
+body {
+    background-color: variaveis.$color-background-body;
+}
 
-#{$botao} {
-  background-color: $corBotao;
-  border-radius: 5px;
-  border: none;
-  height: 40px;
-  width:80px;
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: variaveis.$container-max-width;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: variaveis.$color-header-bg;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0;
+    }
+}
+
+.menu {
+    display: flex;
+
+    li {
+        font-weight: bold;
+        margin-left: 24px;
+
+        a {
+            color: variaveis.$color-menu-link;
+            text-decoration: none;
+        }
+    }
+}
+
+section {
+    padding: 56px 0;
 }
