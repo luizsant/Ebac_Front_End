@@ -1,0 +1,16 @@
+* {
+  border-box: box-sizing;
+  padding: 0;
+  margim: 0;
+  font-family: pacifico;
+}
+
+button {
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  width: 80px;
+}
+
+/*# sourceMappingURL=main.css.map */
