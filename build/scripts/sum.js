@@ -1,0 +1,1 @@
+function ಠ_ಠ390(o,r){return o+r}module.ಠ_ಠ391=ಠ_ಠ390;
