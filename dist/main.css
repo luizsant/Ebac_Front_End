@@ -1,0 +1,77 @@
+:root {
+  --header-color: #01a3a4;
+  --bg-color: #eee;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  list-style-type: none;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("fundo.0d5c3d35.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--header-color);
+  text-align: center;
+  height: 30vh;
+}
+
+header .container {
+  position: relative;
+  bottom: -50%;
+}
+
+.profile-avatar {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  margin-bottom: 24px;
+}
+
+.profile-name {
+  font-size: 2em;
+}
+
+.profile-username {
+  margin: 16px 0 32px;
+  font-size: 1.1em;
+}
+
+.profile-link {
+  background-color: var(--header-color);
+  color: var(--bg-color);
+  margin-top: 24px;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.numbers {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+}
+
+.numbers-item {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.numbers-item h4 {
+  font-size: .3em;
+}
+
+/*# sourceMappingURL=main.css.map */
